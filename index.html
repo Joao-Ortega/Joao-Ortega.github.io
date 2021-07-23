@@ -3,44 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <title>Portifólio Ortega</title>
+    <style>
+        .button {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            width: 500px;
+            color:#000000;
+            background-color:#E4FCFC;
+            border-radius: 8px;
+        }
+        .subtitlefont {
+            font-family:'Indie Flower', cursive; 
+            color: #000000;
+        }
+        .description {
+            font-family:'PT Serif', serif;
+            color:#00FFE7;
+        }
+        body {
+            background-color:#000000;
+            color:#00FFE7;
+        }
+        .countryAndAgeFont {
+            font-family:'Rajdhani', sans-serif;
+        }
+        #principalHabilities {
+            color:#000000;
+            text-decoration: none;
+            background-color: #E4FCFC;
+            padding:3px 3px;
+            border-radius: 15px;
+        }
+        #curiosities {
+            color: #000000;
+            text-decoration: none;
+            background-color: #E4FCFC;
+            padding:3px 3px;
+            border-radius: 15px;
+        }
+        #programming {
+            color: #000000;
+            text-decoration: none;
+            background-color: #E4FCFC;
+            padding:3px 3px;
+            border-radius: 100px;
+        }
+        #favoriteBlog {
+            color: #000000;
+            text-decoration: none;
+            background-color: #E4FCFC;
+            padding:3px 3px;
+            border-radius: 15px;
+        }
+        #aboutTrybe {
+            color: #000000;
+            text-decoration: none;
+            background-color: #E4FCFC;
+            padding:3px 3px;
+            border-radius: 15px;
+        }
+        #buttonTrybe {
+            color:#000000;
+            background-color:#E4FCFC;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        #voltarFoto {
+            color: #000000;
+            text-decoration: none;
+            background-color: #E4FCFC;
+            padding:3px 3px;
+            border-radius: 15px;
+        }
+        .habil {
+            color:white;
+        }
+        .curios {
+            color:white;
+        }
+        .progr {
+            color:white;
+        }
+        .try {
+            color:white;
+        }
+        .font1 {
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    <h1><center>Portifólio Web</center></h1>
-    <center><h2>Este portifólio contém informações sobre o aluno João Pedro Ortega de Souza Baena dos Santos</h2></center>
-        <h4>Natural de Brasília-DF e onde mora atualmente, 23 anos, apaixonado por conhecimento e tecnologia,<br> estudante da Trybe e em suas horas vagas gosta de passar tempo com os amigos e conversar! </h4> 
-        <ul><li><a href="#habilidades">Principais Habilidades</a></li><br>
-            <li><a href="#curiosidades">Curiosidades</a></li><br>
-            <li><a href="#programacao">Programação</a></li><br>
-            <li><a href="https://blog.geekhunter.com.br/?utm_medium=email&_hsmi=138358675&_hsenc=p2ANqtz-_dslrAjdvBB7oZiNFi5ndu9O2UFd7ljX_A7-7oX6ec-KGZtb5vNy-29UQZBvEJ6r_16Kg1lP3YmWYkJ9-aGMsU-zGcvssrhz98tjEHZwqdJXMLjLM&utm_content=138358675&utm_source=hs_automation"target="_blank">Blog favorito</a></li><br>
-            <li><a href="#trybe">Mais sobre a Trybe</a></li></ul>
+    <h1 class="button"><em>Portifólio Web</em></h1>
+    <center><h2 class="subtitlefont">Este portifólio contém informações sobre o aluno João Pedro Ortega de Souza Baena dos Santos</h2></center>
+        <h4 class="description">Natural de <em class="countryAndAgeFont">Brasília-DF</em> e onde mora atualmente, <em class="countryAndAgeFont">23 anos</em>, apaixonado por conhecimento e tecnologia,<br> estudante da Trybe e em suas horas vagas gosta de passar tempo com os amigos e conversar! </h4>
+
+        <ul><li><strong><a href="#habilidades" id="principalHabilities">Principais Habilidades</a></strong></li><br>
+            <li><strong><a href="#curiosidades" id="curiosities">Curiosidades</a></strong></li><br>
+            <li><strong><a href="#programacao" id="programming">Programação</a></strong></li><br>
+            <li><strong><a href="https://blog.geekhunter.com.br/?utm_medium=email&_hsmi=138358675&_hsenc=p2ANqtz-_dslrAjdvBB7oZiNFi5ndu9O2UFd7ljX_A7-7oX6ec-KGZtb5vNy-29UQZBvEJ6r_16Kg1lP3YmWYkJ9-aGMsU-zGcvssrhz98tjEHZwqdJXMLjLM&utm_content=138358675&utm_source=hs_automation"target="_blank" id="favoriteBlog">Blog favorito</a></strong></li><br>
+            <li><strong><a href="#trybe" id="aboutTrybe">Mais sobre a Trybe</a></strong></li></ul>
+
             <h4> Conhecimentos até então adquiridos: </h4>
-        <ul><li>Fundamentos Web</li>
-            <li>Unix & Bash</li>
-            <li>Git & GitHub (Básico)</li>
+        <ul><li>Fundamentos Web</li><br>
+            <li>Unix & Bash</li><br>
+            <li>Git & GitHub (Básico)</li><br>
             <li>Introdução ao HTML</li></ul>
-        <center><img id="foto"src="JPOSBS.jpeg"width="300px"alt="Foto do aluno João Pedro Ortega"></center><br><center><em>Foto do estudante da Trybe</center></em><br>
-        <hr>
-        <hr>
-        <center><h2><em id="habilidades">Habilidades</em></h2></center>
-        <ol><li>Trabalho em equipe</li><br>
-            <li><strong>Tomadas de risco</strong></li><br>
+        <center><img id="foto"src="JPOSBS.jpeg"width="300px"alt="Foto do aluno João Pedro Ortega"></center><br><center><strong><em>"Foto do estudante da Trybe"</strong></em></center><br>
+
+        <hr color="white">
+        <hr color="white">
+
+        <center><h2 class="habil"><em id="habilidades">Habilidades</em></h2></center>
+        <ol><li class="size1">Trabalho em equipe</li><br>
+            <li>Paciência</li><br>
             <li>Empatia</li><br>
-            <li>Paciência</li></ol><br>
-            <hr>
-            <hr>
-            <center><h2><em id="curiosidades">Curiosidades</em></h2></center>
-            <center><h4><em>"Casado com minha esposa Hyorana, Servi o Exército por 04 anos, onde desenvolvi várias SoftSkills tendo aprendido muitas lições que levarei para o resto da vida,<br> sou fascinado em tentar algo em que as pessoas tem dificuldade, foi assim que aprendi a montar o cubo mágico! E também me dedico ao Karatê, uma filosofia de vida"</em></h4></center>
-            <hr>
-            <hr>
-            <center><h2><em id="programacao">Programação</em></h2></center>
-            <center><h4><em>"Mudei para a área de programação pois foi onde me vi profissionalmente no futuro, com o mundo digitalizado a programação abre muitas portas e possibilidades, uma área em que só irá se expandir.<br>Além de um grande objetivo de criar/fazer algo que possa ajudar a sociedade, mudando o mundo a minha volta com tecnologia!"</em></h4></center>
-            <hr>
-            <hr>
-            <h2 id="trybe">Trybe</h2>
-            <p>"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia,<br><br><strong>onde a pessoa só paga quando conseguir um bom trabalho.</strong>" O programa conta com mais de 1.500 horas de aulas presenciais e online<br><br>e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."<br><br>Para mais informações link abaixo:<br><br>
-            <a href="https://www.betrybe.com/"target="_blank">Site Trybe</a></p>
-            <hr>
-            <hr>
-            <h3><a href="#foto">Voltar para foto.</a></h3>
+            <li><strong>Tomadas de risco</strong></li></ol><br>
+
+            <hr color="white">
+            <hr color="white">
+
+            <center><h2 class="curios"><em id="curiosidades">Curiosidades</em></h2></center>
+            <center><h4 class="font1"><em>"Casado com minha esposa Hyorana, Servi o Exército por 04 anos, onde desenvolvi várias SoftSkills tendo aprendido muitas lições que levarei para o resto da vida,<br> sou fascinado em tentar algo em que as pessoas tem dificuldade, foi assim que aprendi a montar o cubo mágico! E também me dedico ao Karatê, uma filosofia de vida"</em></h4></center>
+
+            <hr color="white">
+            <hr color="white">
+
+            <center><h2 class="progr"><em id="programacao">Programação</em></h2></center>
+            <center><h4 class="font1"><em>"Mudei para a área de programação pois foi onde me vi profissionalmente no futuro, com o mundo digitalizado a programação abre muitas portas e possibilidades, uma área em que só irá se expandir.<br>Além de um grande objetivo de criar/fazer algo que possa ajudar a sociedade, mudando o mundo a minha volta com tecnologia!"</em></h4></center>
+
+            <hr color="white">
+            <hr color="white">
+
+            <center><h2 class="try" id="trybe">Trybe</h2></center>
+
+            <center><h2 class="font1"><em></em>"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia,<br><br>onde a pessoa só paga quando conseguir um bom trabalho." O programa conta com mais de 1.500 horas de aulas presenciais e online<br><br>e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."<br><br>Para mais informações link abaixo:</em></h2></center><br><br>
+
+           <center><h3><a href="https://www.betrybe.com/"target="_blank" id="buttonTrybe">Site Trybe</a></h3></center>
+
+            <hr color="white">
+            <hr color="white">
+
+            <h3><a href="#foto" id="voltarFoto">Voltar para foto.</a></h3>
 </body>
 </html>
